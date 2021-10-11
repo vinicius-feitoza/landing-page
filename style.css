@@ -17,6 +17,29 @@ body{
     justify-content: space-between;
 }
 
+.second-section{
+    display: flex;
+    background: white; 
+    padding: 1rem 28rem 20rem; 
+}
+
+.quote-section{
+    background: #E5E7EB;
+    padding: 1rem 28rem 20rem; 
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-author{
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .subsection-1{
     max-width: 50%;
 }
@@ -29,11 +52,7 @@ body{
     user-select: none;
 }
 
-.container{
-    display: flex;
-    background: white; 
-    padding: 1rem 14rem 20rem; 
-}
+
 
 ul {
     text-align: right;
@@ -56,6 +75,12 @@ h1{
     color: #F9FaF8;
     margin: 0;
     padding-bottom: 10px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .subtext{
