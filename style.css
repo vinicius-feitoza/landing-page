@@ -20,7 +20,7 @@ body{
 .second-section{
     display: flex;
     background: white; 
-    padding: 1rem 28rem 6rem; 
+    padding: 1rem 28rem 5rem; 
     flex-direction: column;
     align-items:center;
 }
@@ -33,7 +33,7 @@ body{
 
 .quote-section{
     background: #E5E7EB;
-    padding: 1rem 28rem 7rem; 
+    padding: 1rem 28rem 5rem; 
 }
 
 .quote-text{
