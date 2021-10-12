@@ -25,7 +25,6 @@ body{
     align-items:center;
 }
 
-
 .second-subsection{
     display: grid;
     grid-template-columns: 150px 150px 150px 150px;
@@ -52,6 +51,23 @@ body{
     margin-top: -30px;
 }
 
+.call-section{
+    padding: 1rem 28rem 5rem;
+    background: white;
+}
+
+.call-title{
+    color:rgb(240, 240, 240);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-subtitle{
+    color:rgb(212, 212, 212);
+    font-size: 16px;
+    margin-top: -20px;
+}
+
 .subsection-1{
     max-width: 50%;
 }
@@ -63,7 +79,6 @@ body{
     color: white;
     user-select: none;
 }
-
 
 
 ul {
@@ -116,8 +131,46 @@ h2{
     transition-duration: 0.2s;
 }
 
+.signup-2{
+    border-radius: 8px;
+    background: #3882F6;
+    border: 2px solid white;
+    padding: 8px 40px;
+    margin-top: 30px;
+    align-self: center;
+    font-weight: bold;
+}
+
+
+.signup-2:hover{
+    background-color: white;
+    color: #3882F6;
+    transition-duration: 0.2s;
+}
+
 .image{
     border-radius: 10px;
+}
+
+.square-subtext{
+    text-align: center;
+    color: grey;
+    margin-left: -10px;
+}
+
+.subrect-1{
+    display:flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    margin-left: 110px;
+    max-width: 60%;
+}
+
+.subrect-2{
+    display:flex;
+    flex-direction: column;
+    padding: 36px;
+    margin-right: 110px;
 }
 
 #square {
@@ -130,8 +183,12 @@ h2{
   }
 
 
-.square-subtext{
-    text-align: center;
-    color: grey;
-    margin-left: -10px;
+#rectangle {
+    width: auto;
+    height: 170px;    
+    background: #3882F6;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
 }
