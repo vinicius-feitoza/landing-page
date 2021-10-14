@@ -4,23 +4,31 @@ body{
     margin: 0;
 }
 
+.center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .header{
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    padding: 1rem 28rem 5em;  
+    justify-content:space-between;
+    padding: 1rem 15% 5em;  
+
 }
 
 .first-section{
     display:flex;
-    padding: 1rem 28rem 10rem;
+    padding: 1rem 15% 5%;
     justify-content: space-between;
 }
 
 .second-section{
     display: flex;
     background: white; 
-    padding: 1rem 28rem 5rem; 
+    padding: 1rem 15% 3%; 
     flex-direction: column;
     align-items:center;
 }
@@ -33,7 +41,11 @@ body{
 
 .quote-section{
     background: #E5E7EB;
-    padding: 1rem 28rem 5rem; 
+    padding: 1rem 15% 3%;
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .quote-text{
@@ -52,8 +64,11 @@ body{
 }
 
 .call-section{
-    padding: 1rem 28rem 5rem;
+    padding: 1rem 15% 5rem;
     background: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .call-title{
@@ -76,6 +91,10 @@ body{
   }
 
 .subsection-1{
+    max-width: 50%;
+}
+
+.subsection-2{
     max-width: 50%;
 }
 
@@ -141,8 +160,8 @@ h2{
     border: 2px solid white;
     padding: 8px 40px;
     margin-top: 30px;
-    align-self: center;
     font-weight: bold;
+    margin-left: 50px;
 }
 
 .signup-2:hover{
@@ -172,8 +191,8 @@ h2{
 .subrect-2{
     display:flex;
     flex-direction: column;
-    padding: 36px;
-    margin-right: 110px;
+    padding: 36px 26px;
+    margin-right: 100px;
 }
 
 .link:hover{
