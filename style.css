@@ -81,6 +81,7 @@ body{
     color:rgb(212, 212, 212);
     font-size: 16px;
     margin-top: -20px;
+    white-space: nowrap
 }
 
 .footer {
@@ -162,6 +163,7 @@ h2{
     margin-top: 30px;
     font-weight: bold;
     margin-left: 50px;
+    white-space: nowrap
 }
 
 .signup-2:hover{
